@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:sfdc="http://salesforce.com/2016/federatedsearch/1.0">
     <ShortName>Wikipedia Search</ShortName>
-    <Url type="application/xml" sfdc:maxTotalResults="100" sfdc:maxCount="10" template="https://www.googleapis.com/customsearch/v1?key=AIzaSyBq7ECad-Ilys7pwulyJmYhh0TJnnUMfR8&cx=14225c3b573164f65&q={searchTerms}&start={startIndex?}&num={count?}"/>
+    <Url type="application/json" sfdc:maxTotalResults="100" sfdc:maxCount="10" template="https://www.googleapis.com/customsearch/v1?key=AIzaSyBq7ECad-Ilys7pwulyJmYhh0TJnnUMfR8&cx=14225c3b573164f65&q={searchTerms}&start={startIndex?}&num={count?}"/>
 </OpenSearchDescription>
